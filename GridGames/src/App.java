@@ -5,7 +5,6 @@ public class App {
         System.out.println("If you don't check for 4-in-a-row before your next turn and get 5-in-a-row, it won't count and you'll have to continue");
 
         char[][] myGrid = createGrid(7, 7);
-        writeBlock(myGrid, 0, 1, 'r');
         printboard(myGrid);
     }
 
